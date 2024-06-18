@@ -1,0 +1,12 @@
+.nav{
+  margin: 10px auto;
+  width: 400px;
+}
+
+.active{
+  color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+
+.nav-link:hover {
+  color: rgba(var(--bs-danger-rgb),var(--bs-bg-opacity))!important;
+}
