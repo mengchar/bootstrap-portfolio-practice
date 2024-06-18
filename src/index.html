@@ -1,60 +1,52 @@
-
-
-<nav>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
   
-  <ul class="nav fixed-top nav-pills nav-fill gap-2 p-1 small bg-warning bg-gradient   rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-warning); --bs-nav-pills-link-active-bg: var(--bs-white);">
-  <li class="nav-item" role="presentation">
-    <button class="nav-link rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">My Work</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link active rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"><strong>Pikachu</strong></button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link rounded-5 " id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">About Me</button>
-  </li>
-</ul>
-  </nav>
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script><link rel="stylesheet" href="./style.css">
 
-<div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://images.unsplash.com/photo-1559310278-18a9192d909f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzIwOTV8&ixlib=rb-4.0.3&q=85" class="d-block w-100" alt="...">
-      <div class="carousel-caption text-end d-none d-md-block">
-        <h1>Interior Design</h1>
-        <p>Some representative placeholder content for the first slide.</p> <button type="button" class="btn btn-warning bg-gradient btn-lg px-4 me-md-2">View project</button>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1502691876148-a84978e59af8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzIxODd8&ixlib=rb-4.0.3&q=85" class="d-block w-100" alt="...">
-      <div class="carousel-caption text-end d-none d-md-block">
-        <h1>Enviromental Design</h1>
-        <p>Some representative placeholder content for the second slide.</p><button type="button" class="btn btn-warning bg-gradient btn-lg px-4 me-md-2">View project</button>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1482876555840-f31c5ebbff1c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzIyNTN8&ixlib=rb-4.0.3&q=85" class="d-block w-100" alt="...">
-      <div class="carousel-caption text-end d-none d-md-block">
-        <h1 class="">Graphic Design</h1>
-        <p >Some representative placeholder content for the third slide.</p><button type="button" class="btn btn-warning bg-gradient btn-lg px-4 me-md-2">View project</button>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
 
 
@@ -66,11 +58,11 @@
       <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="https://www.pngall.com/wp-content/uploads/5/Pikachu-PNG-Image-File.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <img src="/dist/charles-11.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Pikachu</h1>
-        <h4 class="opacity-75">Sr. UX Designer</h4>
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Charles Meng</h1>
+        <h4 class="opacity-75">UX Designer</h4>
         <p class="lead">Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button type="button" class="btn btn-warning bg-gradient btn-lg px-4 me-md-2">About me</button>
@@ -91,14 +83,14 @@
         <h2 class="display-5">My work 1</h2>
         <p class="lead">And an even wittier subheading.</p>
       </div>
-      <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzU0OTJ8&ixlib=rb-4.0.3&q=85" class="img-fluid rounded-4" alt="..."></div>
+      <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
     <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden w-100">
       <div class="my-3 p-3">
         <h2 class="display-5">My work 2</h2>
         <p class="lead">And an even wittier subheading.</p>
       </div>
-      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img src="https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzU2NzR8&ixlib=rb-4.0.3&q=85" class="img-fluid rounded-4" alt="..."></div>
+      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
   </div>
 
@@ -108,7 +100,7 @@
         <h2 class="display-5">My work 3</h2>
         <p class="lead">And an even wittier subheading.</p>
       </div>
-      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzU0OTJ8&ixlib=rb-4.0.3&q=85" class="img-fluid rounded-4" alt="..."></div>
+      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
     <div class="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden w-100">
       <div class="my-3 py-3">
@@ -116,7 +108,7 @@
         <p class="lead">And an even wittier subheading.</p>
       </div>
       
-      <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzU0OTJ8&ixlib=rb-4.0.3&q=85" class="img-fluid rounded-4" alt="..."></div>
+      <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       
     </div>
   </div>
@@ -128,86 +120,12 @@
         <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Contact me</h1>
         <p class="col-lg-10 fs-4">Hire me to design this wonderful experience for you. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
       </div>
-      <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" control-id="ControlID-1">
-            <label for="floatingInput">Email address</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" control-id="ControlID-2">
-            <label for="floatingPassword">Password</label>
-          </div>
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me" control-id="ControlID-3"> Remember me
-            </label>
-          </div>
-          <button class="w-100 btn btn-lg btn-warning" type="submit" control-id="ControlID-4">Sign up</button>
-          <hr class="my-4">
-          <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
-        </form>
-      </div>
+      
     </div>
   </div>
 
-<div class="container">
-  <footer class="py-5">
-    <div class="row">
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
 
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
-
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
-
-      <div class="col-md-5 offset-md-1 mb-3">
-        <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of what's new and exciting from us.</p>
-          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-            <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" control-id="ControlID-1">
-            <button class="btn btn-warning" type="button" control-id="ControlID-2">Subscribe</button>
-          </div>
-        </form>
-      </div>
-    </div>
-
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-      <p>© 2024 Company, Inc. All rights reserved.</p>
-      <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-      </ul>
-    </div>
-  </footer>
-</div>
-
+<!-- partial -->
+  
+</body>
+</html>
